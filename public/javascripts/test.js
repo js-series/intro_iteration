@@ -155,7 +155,7 @@ describe('Example 5: Filtering nums less than 10', function () {
 
       it('should filter out values less than 10', function () {
         var input  = [7, 11, 8, 12, 10, 9];
-        var output = [11, 10, 12];
+        var output = [11, 12, 10];
 
         expect(tenOrMore(input)).to.eql(output);
       });
@@ -163,7 +163,7 @@ describe('Example 5: Filtering nums less than 10', function () {
   });
 });
 
-describe('Example 5: Adding it all up', function () {
+describe('Example 6: Adding it all up', function () {
 
   describe('add', function () {
 
