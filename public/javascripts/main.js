@@ -66,7 +66,7 @@ function tenOrMore(nums) {
 function add(nums, seed) {
   var result, start = 0;
 
-  if (seed === undefined) {
+  if (isNaN(seed)) {
     result = nums[0];
     start  += 1;
   } else {
